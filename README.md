@@ -31,7 +31,7 @@ _A list of my commonly used Git commands_
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
-| `git commit -m "[commit message]"` | Commit changes with automatically stage files that have been modified and deleted but not new |
+| `git commit -a -m "[commit message]"` | With automatically stage files that have been modified and deleted but not new |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
