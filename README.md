@@ -14,6 +14,15 @@ _A list of my commonly used Git commands_
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+### Change "origin" of your GIT repository
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote` | Return list of repositories |
+| `git remote rm origin` | Delete origin |
+| `git remote add origin git@github.com:aplikacjainfo/proj1.git` | add new origin from another repository |
+| `git remote set-head <name>` | Switch to another repository  |
+
 ### Basic Snapshotting
 
 | Command | Description |
