@@ -21,7 +21,7 @@ _A list of my commonly used Git commands_
 | `git remote` | Return list of repositories |
 | `git remote rm origin` | Delete origin |
 | `git remote add origin git@github.com:aplikacjainfo/proj1.git` | add new origin from another repository |
-| `git remote set-head <name>` | Switch to another repository  |
+| `git remote set-head [name]` | Switch to another repository  |
 
 ### Basic Snapshotting
 
@@ -41,10 +41,11 @@ _A list of my commonly used Git commands_
 | `git branch` | List branches (the asterisk denotes the current branch) |
 | `git branch -a` | List all branches (local and remote) |
 | `git branch [branch name]` | Create a new branch |
-| `git branch -m <newname>` | Rename current branch |
-| `git branch -m <oldname> <newname>` | Rename branch |
+| `git branch -m [newname]` | Rename current branch |
+| `git branch -m [oldname] [newname]` | Rename branch |
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branchName]` | Delete a remote branch |
+| `git push origin :[branchName]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
