@@ -77,3 +77,8 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+### Reset & Rebase
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset --hard HEAD~1` | hard (delete all changing) reset in 1 commit up |
